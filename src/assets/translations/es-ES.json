@@ -1,0 +1,18 @@
+{
+    "label.name.app": "Nebular Español",
+    "label.list.countries": "Lista de paises",
+    "label.cities": "Ciudades",
+    "label.list.cities": "Lista de ciudades",
+    "label.countries.maintenance": "Mantenimiento de paises", 
+    "label.cities.maintenance": "Mantenimiento de ciudades",     
+    "label.new.country": "Nuevo Pais",
+    "label.edit.country": "Editar Pais",    
+    "label.create.country": "Crear Pais",
+    "label.new.city": "Nueva Ciudad",
+    "label.edit.city": "Editar Ciudad",    
+    "label.product.maintenance": "Mantenimiento de productos",
+    "label.previous": "Anterior",
+    "label.next": "Siguiente",
+    "label.3.characters": "Digite al menos tres caracteres",
+    "label.new.client": "Nuevo Cliente"
+}

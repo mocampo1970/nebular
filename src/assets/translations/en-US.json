@@ -1,0 +1,17 @@
+{
+    "label.name.app": "english Nebular",
+    "label.countries": "Paises",
+    "label.list.countries": "List countries",
+    "label.cities": "Ciudades",
+    "label.list.cities": "List cities",
+    "label.countries.maintenance": "Maintenance of countries", 
+    "label.cities.maintenance": "Maintenance of cities",
+    "label.new.country": "New country",
+    "label.edit.country": "Editar country",       
+    "label.create.country": "Create country",
+    "label.new.city": "new city",
+    "label.edit.city": "edit country",      
+    "label.product maintenance": "label.product maintenance",
+    "label.3.characters": "Type 3 characters",
+    "label.new.client": "New Client"
+}

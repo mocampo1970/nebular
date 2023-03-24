@@ -1,0 +1,27 @@
+
+<!-- Esta maqueta la trajimos de nebular lo traje de esta pagina que se abre desde nebular 
+     y es la que da forma al menu izquierdo y derecho
+     https://github.com/ralscha/blog2020/blob/master/nebular-start/src/app/app.component.html -->
+<nb-layout>
+
+  <nb-layout-header fixed>
+    <!-- Pone el icono del menu-->
+    <nb-icon (click)="toggleSidebar()" class="sidebar-toggle" icon="menu-2-outline"></nb-icon>
+    <h2>Nebular Starter App</h2>
+  </nb-layout-header>
+
+  <nb-sidebar class="menu-sidebar" responsive start>
+    <!-- es donde se definen los items del menu-->
+    <nb-menu [items]="items"></nb-menu>
+  </nb-sidebar>
+
+  <nb-layout-column>
+    <!-- Para que permita abrir cualquier opción -->
+    <router-outlet></router-outlet>
+  </nb-layout-column>
+
+  <nb-layout-footer fixed>
+    This is the footer
+  </nb-layout-footer>
+
+</nb-layout>
