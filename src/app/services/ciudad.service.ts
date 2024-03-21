@@ -47,8 +47,13 @@ export class CiudadService {
   }    
 
   // Metodo que permite crear la ciudad, o sea llama al postmapping del apirest. 
+  // NOTA: otra forma de hacer un add con post y de retornar una ciudad
   addCiudad(ciudad: Ciudad): Observable<Ciudad>{
     return this.httpClient.post<Ciudad>(this.baseUrl, ciudad);
+    //===========================================================
+    // otra forma de hacer el httpclient
+    //===========================================================
+    // return this.httpClient.post(`${this.baseUrl}`, ciudad)
   }
 
   // Actualizar y va al metodo actualizarCiudad del springboot con putmapping
