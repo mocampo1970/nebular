@@ -18,7 +18,7 @@ export class AddProductosComponent implements OnInit {
 
   private today = new Date().toISOString().substring(0, 10);
 
-  //================= Otra forma de trabajar
+   //================= Otra forma de trabajar
   // Instanciamos cada campo que tiene el formulario pero dentro del FormGroup
   // Al constructor le enviamos un json con cada campo que hay en el formulario por eso
   // debe ser con : por ejm si coloco algo dentro del formControl el lo muestra en pantalla
@@ -169,7 +169,6 @@ export class AddProductosComponent implements OnInit {
     this.producto.iva         = this.formularioRegistro.value.iva;
     this.producto.fechaIngreso= this.formularioRegistro.value.fechaIngreso;
     console.log("fecha ingreso antes de guardar", this.producto.fechaIngreso)
-
 
     // Si esta adicionando
     if (this.isAdd) {

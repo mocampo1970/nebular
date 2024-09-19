@@ -28,7 +28,7 @@ export class ProductosComponent implements OnInit {
   public itemsPage: number;    
 
   // es es donde tendremos todas las propiedades de todos los campos que van a componer 
-  // ese formulario como aspectos de si son obligatorios, longitud mínima, tipo de campo
+  // ese formulario como aspectos de si son obligatorios, longitud mínima, tipo de campo.
   registerForm: FormGroup;
 
   // Añadimos una propiedad submitted para hacer un control de si se ha pulsado o no el botón de enviar, 
